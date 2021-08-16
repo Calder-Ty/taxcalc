@@ -1,3 +1,3 @@
 # TaxCalc
 
-A simple tool for calulating 2021 Tax burden.
+A simple tool for calculating 2021 Tax burden.
