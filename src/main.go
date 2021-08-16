@@ -45,6 +45,7 @@ func main() {
 	}
 	if *income <= 0.0 {
 		fmt.Printf("Your income is %.2f?!? Get a job you dirty hippy!\n", *income)
+		return
 	}
 	tax_inc := calc_taxable_income(*income)
 	tax_burden := calc_tax_burden(tax_inc)
